@@ -79,7 +79,7 @@ let removeitems=()=>{
 let displaywinner=(val1)=>{
     imgg.classList.remove("hide");
     winnerdisp.classList.remove("hide");
-    winnerdisp.innerHTML = `CONGRATS \n\n Winner is ${val1}`;
+    winnerdisp.innerHTML = `CONGRATS.. Winner is ${val1}`;
     resetbutton.innerText="NEW GAME";
 }
 resetbutton.addEventListener("click",()=>{  
